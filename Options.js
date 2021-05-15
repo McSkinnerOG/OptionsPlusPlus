@@ -398,19 +398,17 @@ window.EnableMusicButton = pc.app.getEntityFromIndex(
 EnableMusicButton.enabled = false;
 EnableMusicButton.parent.parent.parent.children[7].children[0].children[1].children[1].element.text = "Weapons"
 EnableMusicButton.parent.parent.parent.children[7].children[1].children[0].element.text = "Here you can change some configs how guns are working"
-EnableMusicButton.parent.parent.parent.children[7].children[1].children[0].setLocalPosition(180, 5, 0)
+EnableMusicButton.parent.parent.parent.children[7].children[1].children[0].setLocalPosition(150, 7.5, 0)
+EnableMusicButton.parent.parent.parent.children[7].children[2].setLocalPosition(20, -70, 0);
+EnableMusicButton.parent.parent.parent.children[7].children[3].setLocalPosition(20, -115, 0);
+EnableMusicButton.parent.parent.parent.children[7].children[4].setLocalPosition(20, -160, 0);
+EnableMusicButton.parent.parent.parent.children[7].children[5].setLocalPosition(20, -205, 0);
+EnableMusicButton.parent.parent.parent.children[7].children[6].setLocalPosition(20, -250, 0);
+EnableMusicButton.parent.parent.parent.children[7].children[2].children[2].enabled = false
+EnableMusicButton.parent.parent.parent.children[7].children[2].children[2].enabled = true
 EnableMusicButton.parent.parent.parent.children[8].children[0].children[1].children[1].element.text = "Field of View"
 EnableMusicButton.parent.parent.parent.children[8].children[1].children[0].element.text = "Here you can change what Field of View in Zoom you want to have"
 EnableMusicButton.parent.parent.parent.children[8].children[1].children[0].setLocalPosition(150, 7.5, 0)
-EnableMusicButton.parent.parent.parent.children[8].children[2].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
-EnableMusicButton.parent.parent.parent.children[8].children[3].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
-EnableMusicButton.parent.parent.parent.children[8].children[4].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
-EnableMusicButton.parent.parent.parent.children[8].children[5].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
-EnableMusicButton.parent.parent.parent.children[8].children[6].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
-EnableMusicButton.parent.parent.parent.children[8].children[7].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
-EnableMusicButton.parent.parent.parent.children[8].children[8].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
-EnableMusicButton.parent.parent.parent.children[8].children[9].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
-EnableMusicButton.parent.parent.parent.children[8].children[10].setLocalScale(1, 1, 1); //Don't change or the whole universe collapses in the settings - NeXi2k
 EnableMusicButton.parent.parent.parent.children[8].children[2].setLocalPosition(20, -70, 0);
 EnableMusicButton.parent.parent.parent.children[8].children[3].setLocalPosition(20, -115, 0);
 EnableMusicButton.parent.parent.parent.children[8].children[4].setLocalPosition(20, -160, 0);
@@ -422,3 +420,29 @@ EnableMusicButton.parent.parent.parent.children[8].children[9].setLocalPosition(
 EnableMusicButton.parent.parent.parent.children[8].children[10].setLocalPosition(20, -430, 0);
 EnableMusicButton.parent.parent.parent.children[8].children[2].children[2].enabled = false
 EnableMusicButton.parent.parent.parent.children[8].children[2].children[2].enabled = true
+
+
+EnableMusicButton.parent.parent.parent.children[9].children[0].children[1].children[1].element.text = "Visual Tweaks"
+EnableMusicButton.parent.parent.parent.children[9].children[1].children[0].element.text = "Here you can tweak visual effects for FPS gains."
+EnableMusicButton.parent.parent.parent.children[9].children[1].children[0].setLocalPosition(150, 7.5, 0)
+EnableMusicButton.parent.parent.parent.children[9].children[2].setLocalPosition(20, -70, 0);
+EnableMusicButton.parent.parent.parent.children[9].children[3].setLocalPosition(20, -115, 0);
+EnableMusicButton.parent.parent.parent.children[9].children[4].setLocalPosition(20, -160, 0);
+EnableMusicButton.parent.parent.parent.children[9].children[5].setLocalPosition(20, -205, 0);
+EnableMusicButton.parent.parent.parent.children[9].children[2].children[2].enabled = false
+EnableMusicButton.parent.parent.parent.children[9].children[2].children[2].enabled = true
+
+
+EnableMusicButton.parent.parent.parent.children[10].children[0].children[1].children[1].element.text = "FPS Menu"
+EnableMusicButton.parent.parent.parent.children[10].children[1].children[0].element.text = "Here you can tweak visual effects for FPS gains."
+EnableMusicButton.parent.parent.parent.children[10].children[1].children[0].setLocalPosition(150, 7.5, 0)
+EnableMusicButton.parent.parent.parent.children[10].children[2].setLocalPosition(20, -70, 0);
+EnableMusicButton.parent.parent.parent.children[10].children[3].setLocalPosition(20, -115, 0);
+EnableMusicButton.parent.parent.parent.children[10].children[4].setLocalPosition(20, -160, 0);
+EnableMusicButton.parent.parent.parent.children[10].children[5].setLocalPosition(20, -205, 0);
+EnableMusicButton.parent.parent.parent.children[10].children[6].setLocalPosition(20, -250, 0);
+EnableMusicButton.parent.parent.parent.children[10].children[7].setLocalPosition(20, -295, 0);
+EnableMusicButton.parent.parent.parent.children[10].children[8].setLocalPosition(20, -340, 0);
+EnableMusicButton.parent.parent.parent.children[10].children[9].setLocalPosition(20, -385, 0);
+EnableMusicButton.parent.parent.parent.children[10].children[2].children[2].enabled = false
+EnableMusicButton.parent.parent.parent.children[10].children[2].children[2].enabled = true
